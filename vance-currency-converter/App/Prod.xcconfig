@@ -1,0 +1,14 @@
+//
+//  Prod1.xcconfig
+//  vance-currency-converter
+//
+//  Created by Raghav Vashisht on 19/09/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+PROTOCOL = http:/
+
+BASE_URL = $(PROTOCOL)/api.exchangeratesapi.io/v1/
+API_KEY = 27ece0fc8af3de71bef61354695c30fb

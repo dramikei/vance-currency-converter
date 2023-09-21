@@ -11,7 +11,7 @@ import SwiftUI
 struct vance_currency_converterApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeScreen()
         }
     }
 }

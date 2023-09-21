@@ -8,17 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		F248290B2ABA146F007CBCD0 /* vance_currency_converterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F248290A2ABA146F007CBCD0 /* vance_currency_converterApp.swift */; };
-		F248290D2ABA146F007CBCD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F248290C2ABA146F007CBCD0 /* ContentView.swift */; };
 		F248290F2ABA1471007CBCD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F248290E2ABA1471007CBCD0 /* Assets.xcassets */; };
 		F24829122ABA1471007CBCD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24829112ABA1471007CBCD0 /* Preview Assets.xcassets */; };
+		F248291F2ABA14D9007CBCD0 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F248291E2ABA14D9007CBCD0 /* APIClient.swift */; };
+		F24829282ABA1ADB007CBCD0 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24829272ABA1ADB007CBCD0 /* HomeScreen.swift */; };
+		F248292B2ABA1AEB007CBCD0 /* HomeScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F248292A2ABA1AEB007CBCD0 /* HomeScreenVM.swift */; };
+		F248292E2ABA1E80007CBCD0 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F248292D2ABA1E80007CBCD0 /* Request.swift */; };
+		F24829312ABA206E007CBCD0 /* APIRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24829302ABA206E007CBCD0 /* APIRepository.swift */; };
+		F24829332ABA2117007CBCD0 /* LatestRateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24829322ABA2117007CBCD0 /* LatestRateResponse.swift */; };
+		F24829352ABA247C007CBCD0 /* ConvertedCurrencyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24829342ABA247C007CBCD0 /* ConvertedCurrencyResponse.swift */; };
+		F24829372ABB6698007CBCD0 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24829362ABB6698007CBCD0 /* Status.swift */; };
+		F24829392ABB6FF2007CBCD0 /* CurrencyConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24829382ABB6FF2007CBCD0 /* CurrencyConversionView.swift */; };
+		F248293B2ABB700A007CBCD0 /* CurrencyConversionHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F248293A2ABB700A007CBCD0 /* CurrencyConversionHistoryView.swift */; };
+		F248293F2ABB7258007CBCD0 /* CurrencyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F248293E2ABB7258007CBCD0 /* CurrencyPickerView.swift */; };
+		F24829422ABB7E36007CBCD0 /* ConversionHistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24829412ABB7E36007CBCD0 /* ConversionHistoryItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F24829072ABA146F007CBCD0 /* vance-currency-converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vance-currency-converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F248290A2ABA146F007CBCD0 /* vance_currency_converterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vance_currency_converterApp.swift; sourceTree = "<group>"; };
-		F248290C2ABA146F007CBCD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F248290E2ABA1471007CBCD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F24829112ABA1471007CBCD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F248291E2ABA14D9007CBCD0 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		F24829232ABA1A13007CBCD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24829272ABA1ADB007CBCD0 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		F248292A2ABA1AEB007CBCD0 /* HomeScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVM.swift; sourceTree = "<group>"; };
+		F248292C2ABA1C58007CBCD0 /* Prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Prod.xcconfig; sourceTree = "<group>"; };
+		F248292D2ABA1E80007CBCD0 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		F24829302ABA206E007CBCD0 /* APIRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRepository.swift; sourceTree = "<group>"; };
+		F24829322ABA2117007CBCD0 /* LatestRateResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestRateResponse.swift; sourceTree = "<group>"; };
+		F24829342ABA247C007CBCD0 /* ConvertedCurrencyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertedCurrencyResponse.swift; sourceTree = "<group>"; };
+		F24829362ABB6698007CBCD0 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		F24829382ABB6FF2007CBCD0 /* CurrencyConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConversionView.swift; sourceTree = "<group>"; };
+		F248293A2ABB700A007CBCD0 /* CurrencyConversionHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConversionHistoryView.swift; sourceTree = "<group>"; };
+		F248293E2ABB7258007CBCD0 /* CurrencyPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPickerView.swift; sourceTree = "<group>"; };
+		F24829412ABB7E36007CBCD0 /* ConversionHistoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionHistoryItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +75,12 @@
 		F24829092ABA146F007CBCD0 /* vance-currency-converter */ = {
 			isa = PBXGroup;
 			children = (
+				F24829202ABA17EF007CBCD0 /* App */,
+				F248291B2ABA14B5007CBCD0 /* API */,
+				F24829182ABA148A007CBCD0 /* Screens */,
+				F248291A2ABA149A007CBCD0 /* Shared Components */,
+				F24829192ABA1494007CBCD0 /* Utils */,
 				F248290A2ABA146F007CBCD0 /* vance_currency_converterApp.swift */,
-				F248290C2ABA146F007CBCD0 /* ContentView.swift */,
 				F248290E2ABA1471007CBCD0 /* Assets.xcassets */,
 				F24829102ABA1471007CBCD0 /* Preview Content */,
 			);
@@ -65,6 +93,127 @@
 				F24829112ABA1471007CBCD0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F24829182ABA148A007CBCD0 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F24829242ABA1AB6007CBCD0 /* HomeScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F24829192ABA1494007CBCD0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F248291A2ABA149A007CBCD0 /* Shared Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Shared Components";
+			sourceTree = "<group>";
+		};
+		F248291B2ABA14B5007CBCD0 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F248291D2ABA14C0007CBCD0 /* Models */,
+				F248292F2ABA205C007CBCD0 /* Repository */,
+				F248291C2ABA14B9007CBCD0 /* APIClient */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F248291C2ABA14B9007CBCD0 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				F248291E2ABA14D9007CBCD0 /* APIClient.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		F248291D2ABA14C0007CBCD0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F248292D2ABA1E80007CBCD0 /* Request.swift */,
+				F24829322ABA2117007CBCD0 /* LatestRateResponse.swift */,
+				F24829342ABA247C007CBCD0 /* ConvertedCurrencyResponse.swift */,
+				F24829362ABB6698007CBCD0 /* Status.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F24829202ABA17EF007CBCD0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F24829232ABA1A13007CBCD0 /* Info.plist */,
+				F248292C2ABA1C58007CBCD0 /* Prod.xcconfig */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F24829242ABA1AB6007CBCD0 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F24829402ABB7E28007CBCD0 /* Model */,
+				F24829292ABA1AE0007CBCD0 /* ViewModel */,
+				F24829262ABA1AD0007CBCD0 /* Components */,
+				F24829272ABA1ADB007CBCD0 /* HomeScreen.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		F24829262ABA1AD0007CBCD0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F248293C2ABB723A007CBCD0 /* CurrencyConversionView */,
+				F248293A2ABB700A007CBCD0 /* CurrencyConversionHistoryView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F24829292ABA1AE0007CBCD0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F248292A2ABA1AEB007CBCD0 /* HomeScreenVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F248292F2ABA205C007CBCD0 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				F24829302ABA206E007CBCD0 /* APIRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		F248293C2ABB723A007CBCD0 /* CurrencyConversionView */ = {
+			isa = PBXGroup;
+			children = (
+				F248293D2ABB7246007CBCD0 /* Components */,
+				F24829382ABB6FF2007CBCD0 /* CurrencyConversionView.swift */,
+			);
+			path = CurrencyConversionView;
+			sourceTree = "<group>";
+		};
+		F248293D2ABB7246007CBCD0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F248293E2ABB7258007CBCD0 /* CurrencyPickerView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F24829402ABB7E28007CBCD0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F24829412ABB7E36007CBCD0 /* ConversionHistoryItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +286,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F248290D2ABA146F007CBCD0 /* ContentView.swift in Sources */,
+				F24829282ABA1ADB007CBCD0 /* HomeScreen.swift in Sources */,
+				F248292B2ABA1AEB007CBCD0 /* HomeScreenVM.swift in Sources */,
+				F248292E2ABA1E80007CBCD0 /* Request.swift in Sources */,
 				F248290B2ABA146F007CBCD0 /* vance_currency_converterApp.swift in Sources */,
+				F248291F2ABA14D9007CBCD0 /* APIClient.swift in Sources */,
+				F24829422ABB7E36007CBCD0 /* ConversionHistoryItem.swift in Sources */,
+				F24829372ABB6698007CBCD0 /* Status.swift in Sources */,
+				F24829312ABA206E007CBCD0 /* APIRepository.swift in Sources */,
+				F248293F2ABB7258007CBCD0 /* CurrencyPickerView.swift in Sources */,
+				F24829392ABB6FF2007CBCD0 /* CurrencyConversionView.swift in Sources */,
+				F248293B2ABB700A007CBCD0 /* CurrencyConversionHistoryView.swift in Sources */,
+				F24829352ABA247C007CBCD0 /* ConvertedCurrencyResponse.swift in Sources */,
+				F24829332ABA2117007CBCD0 /* LatestRateResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +426,7 @@
 		};
 		F24829162ABA1471007CBCD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F248292C2ABA1C58007CBCD0 /* Prod.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -275,6 +436,7 @@
 				DEVELOPMENT_TEAM = Z3BGLCCPGN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "vance-currency-converter/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,6 +457,7 @@
 		};
 		F24829172ABA1471007CBCD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F248292C2ABA1C58007CBCD0 /* Prod.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,6 +467,7 @@
 				DEVELOPMENT_TEAM = Z3BGLCCPGN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "vance-currency-converter/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
